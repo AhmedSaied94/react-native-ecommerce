@@ -2,9 +2,12 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
+  let x = 5;
+  x.toString()
+  console.log(x)
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>NAda Emulator</Text>
       <StatusBar style="auto" />
     </View>
   );
